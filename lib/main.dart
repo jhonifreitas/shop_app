@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app/pages/home.dart';
+import 'package:shop_app/tabs/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Color.fromRGBO(4, 125, 141, 1),
       ),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: HomeTab(),
     );
   }
 }
